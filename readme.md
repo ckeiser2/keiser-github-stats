@@ -101,9 +101,6 @@
 
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
-> [!IMPORTANT]
-> We're a small team, and to prioritize, we rely on upvotes :+1:. We use the Top Issues dashboard for tracking community demand (see [#1935](https://github.com/ckeiser2/github-readme-stats/issues/1935)). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
-
 # GitHub Stats Card
 
 Copy and paste this into your markdown, and that's it. Simple!
@@ -170,7 +167,7 @@ Use `&theme=THEME_NAME` parameter like so :
 
 GitHub Readme Stats comes with several built-in themes (e.g. `dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `onedark`, `cobalt`, `synthwave`, `highcontrast`, `dracula`).
 
-<img src="https://res.cloudinary.com/ckeiser2/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
+<img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
 
 You can look at a preview for [all available themes](themes/README.md) or checkout the [theme config file](themes/index.js). Please note that we paused the addition of new themes to decrease maintenance efforts; all pull requests related to new themes will be closed.
 
@@ -991,9 +988,6 @@ However, if you are using this project and are happy with it or just want to enc
 
 *   Giving proper credit when you use github-readme-stats on your readme, linking back to it. :D
 *   Starring and sharing the project. :rocket:
-*   [![paypal.me/ckeiser2](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/ckeiser2) - You can make a one-time donation via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
-
-Thanks! :heart:
 
 ***
 
