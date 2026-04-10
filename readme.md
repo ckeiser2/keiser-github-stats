@@ -108,7 +108,7 @@ Copy and paste this into your markdown, and that's it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2)](https://github.com/ckeiser2/github-readme-stats)
+[![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2)](https://github.com/ckeiser2/github-readme-stats)
 ```
 
 > [!WARNING]
@@ -124,7 +124,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&hide=contribs,prs)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -134,7 +134,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -142,7 +142,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true)
 ```
 
 ### Showing commits count for specified year
@@ -150,7 +150,7 @@ To enable icons, you can pass `&show_icons=true` in the query param, like so:
 You can specify a year and fetch only the commits that were made in that year by passing `&commits_year=YYYY` to the parameter.
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&commits_year=2020)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&commits_year=2020)
 ```
 
 ### Themes
@@ -160,7 +160,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=radical)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -173,8 +173,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Colton's GitHub stats-Dark](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Colton's GitHub stats-Light](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+[![Colton's GitHub stats-Dark](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![Colton's GitHub stats-Light](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -183,13 +183,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=transparent)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=transparent)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -198,13 +198,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&bg_color=00000000)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&bg_color=00000000)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -213,15 +213,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Colton's GitHub stats-Dark](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-dark-mode-only)
-[![Colton's GitHub stats-Light](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-light-mode-only)
+[![Colton's GitHub stats-Dark](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-dark-mode-only)
+[![Colton's GitHub stats-Light](https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Colton's GitHub stats-Dark](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-dark-mode-only)
-[![Colton's GitHub stats-Light](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-light-mode-only)
+[![Colton's GitHub stats-Dark](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-dark-mode-only)
+[![Colton's GitHub stats-Light](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/ckeiser2/github-readme-stats#gh-light-mode-only)
 
 </details>
 
@@ -232,14 +232,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 ```html
 <picture>
   <source
-    srcset="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark"
+    srcset="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true"
+    srcset="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true" />
+  <img src="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true" />
 </picture>
 ```
 
@@ -248,14 +248,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark"
+    srcset="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true"
+    srcset="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2&show_icons=true" />
+  <img src="https://keiser-github-stats.vercel.app/api?username=ckeiser2&show_icons=true" />
 </picture>
 
 </details>
@@ -671,45 +671,45 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 *   Default
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2)
 
 *   Hiding specific stats
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&hide=contribs,issues)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&hide=issues\&show_icons=true)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&hide=issues\&show_icons=true)
 
 *   Shows GitHub logo instead rank level
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&rank_icon=github)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&rank_icon=percentile)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&border_color=2e4058)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&border_color=2e4058)
 
 *   Include All Commits
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&include_all_commits=true)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=radical)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Colton's GitHub stats](https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Colton's GitHub stats](https://keiser-github-stats.vercel.app/api?username=ckeiser2\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
@@ -749,7 +749,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/ckeiser2/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2" />
+  <img height=200 align="center" src="https://keiser-github-stats.vercel.app/api?username=ckeiser2" />
 </a>
 <a href="https://github.com/ckeiser2/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ckeiser2&layout=compact&langs_count=8&card_width=320" />
@@ -760,7 +760,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/ckeiser2/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-keiser1.vercel.app/api?username=ckeiser2" />
+  <img height=200 align="center" src="https://keiser-github-stats.vercel.app/api?username=ckeiser2" />
 </a>
 <a href="https://github.com/ckeiser2/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ckeiser2&layout=compact&langs_count=8&card_width=320" />
